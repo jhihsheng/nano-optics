@@ -1,2 +1,2 @@
 # nano-optics
-Simulations using MEEP
+Computation and Simulations of electrodynamics at a nano-scale 
