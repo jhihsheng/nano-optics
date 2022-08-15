@@ -18,4 +18,4 @@ mycmap2 = LinearSegmentedColormap.from_list("mycmap2", list(zip(nodes2, colors2)
 
 colors3 = ["red","violet", "white", "lime","blue"]
 nodes3 = [0.0,0.25, 0.5, 0.75, 1.0]
-bicmap = LinearSegmentedColormap.from_list("mycmap3", list(zip(nodes3, colors3)))
+bicmap = LinearSegmentedColormap.from_list("bicmap", list(zip(nodes3, colors3)))
