@@ -92,5 +92,5 @@ Now, you should be all set to begin the exploration of scienfic computing with J
 jupyter lab --port 8000
 ```
 
-And copy paste and the link `http://localhost...`
+Copy and paste  the link `http://localhost...`
 to the browser.
