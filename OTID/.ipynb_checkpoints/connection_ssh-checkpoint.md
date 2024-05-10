@@ -23,6 +23,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O mi
 bash miniconda.sh -b -p miniconda
 ```
 and type `ls`. You will see a folder *miniconda*
+
 4. The system need to know the path of the folder so that you can use python at any folders. To do this, you need to export the path.
     - install text editor *nano*. You need to enter 預設密碼  to use `sudo`
     ```
@@ -39,7 +40,9 @@ and type `ls`. You will see a folder *miniconda*
     export PATH=~/miniconda/bin:$PATH
     ```
     use `ctrl+ X` to save the change and exit.
+    
     - to make the changes take effect, 
+
     ```
     source ~/.bashrc
     ```
@@ -86,5 +89,8 @@ conda install -c conda-forge ipympl jupyterlab
 Now, you should be all set to begin the exploration of scienfic computing with Jupyterlab.
 
 ```
-jyputer lab --port 8000
+jupyter lab --port 8000
 ```
+
+And copy paste and the link `http://localhost...`
+to the browser.
