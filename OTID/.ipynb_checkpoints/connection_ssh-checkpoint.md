@@ -7,7 +7,7 @@
 ## 安裝與設定mobaxterm
 1. Install `mobaxterm` and open it.
 2. Start a new SSH session. Remote host = container IP, user name = 學號, password = 預設密碼.
-   After that you will see the termial interface. You can use the termial to access the Linux container
+   After that you will see the terminal interface. You can use the terminal to access the Linux container
    
 ## Install Conda 
 1. Switch to bash shell by typing 
