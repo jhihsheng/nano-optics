@@ -1,0 +1,40 @@
+Warning: grid volume is not an integer number of pixels; cell size will be rounded to nearest pixel.
+-----------
+Initializing structure...
+time for choose_chunkdivision = 0.000154018 s
+Working in Cylindrical dimensions.
+Computational cell is 6.5 x 0 x 7 with resolution 70
+time for set_epsilon = 0.395034 s
+-----------
+Meep: using complex fields.
+on time step 350 (time=2.5), 0.0114384 s/step
+on time step 665 (time=4.75), 0.0127133 s/step
+on time step 981 (time=7.00714), 0.0126787 s/step
+on time step 1306 (time=9.32857), 0.0123342 s/step
+on time step 1639 (time=11.7071), 0.0120408 s/step
+on time step 1972 (time=14.0857), 0.0120316 s/step
+on time step 2319 (time=16.5643), 0.0115341 s/step
+on time step 2648 (time=18.9143), 0.0121707 s/step
+field decay(t = 20.007142857142856): 22.14577534698864 / 22.14577534698864 = 1.0
+on time step 2975 (time=21.25), 0.0122372 s/step
+on time step 3276 (time=23.4), 0.013306 s/step
+on time step 3600 (time=25.7143), 0.0123795 s/step
+on time step 3920 (time=28), 0.0125093 s/step
+on time step 4258 (time=30.4143), 0.0118363 s/step
+on time step 4616 (time=32.9714), 0.0111887 s/step
+Traceback (most recent call last):
+  File "planar_cavity_ldos.py", line 139, in <module>
+    ldos_bulk_cyl = bulk_ldos_cyl()
+  File "planar_cavity_ldos.py", line 41, in bulk_ldos_cyl
+    sim.run(mp.dft_ldos(fcen,0,1),
+  File "/home/jwu/anaconda/envs/mp/lib/python3.8/site-packages/meep/simulation.py", line 3634, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/jwu/anaconda/envs/mp/lib/python3.8/site-packages/meep/simulation.py", line 2222, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/jwu/anaconda/envs/mp/lib/python3.8/site-packages/meep/simulation.py", line 2186, in _run_until
+    self.fields.step()
+  File "/home/jwu/anaconda/envs/mp/lib/python3.8/site-packages/meep/__init__.py", line 3959, in step
+    return _meep.fields_step(self)
+KeyboardInterrupt
+
+Elapsed run time = 57.0720 s
